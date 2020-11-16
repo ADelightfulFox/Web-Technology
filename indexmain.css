@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  margin-left: 15%;
+}
+
+
+
+h1 {
+    color: rgb(146, 62, 255);
+    font-size: 8vw;
+   font-family: sans-serif;
+   }
