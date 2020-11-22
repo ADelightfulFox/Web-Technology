@@ -3,6 +3,9 @@ h1 {
     font-size: 6vw;
    font-family: 'Pacifico', cursive;
    grid-area: header;
+   margin-left: 15%;
+   width: 15%;
+   transition: 2s;
    
    }
 
@@ -11,14 +14,28 @@ h2 {
     font-size: 6vw;
    font-family: 'Pacifico', cursive;
    grid-area: header2;
+   margin-left: 15%;
+   width: 60%;
+   transition: 2s;
 
 }
+
 
 nav {
   color: rgb(255, 139, 62);
   font-size: 2vw;
   font-family: 'Pacifico', cursive;
   grid-area: nav;
+  padding-left: 15%;
+  
+  
+}
+
+nav li {
+  display: inline;
+  padding: 2em;
+  background-color: rgba(226, 141, 159, 0.582);
+  border-radius: 15%;
   
 }
 
@@ -30,16 +47,44 @@ p {
 }
 
 body {
-  background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-left: 15%;
+  
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
   grid-template-areas: "nav"
   "header"
   "header2";
+  height: 100%;
 
+}
+
+body:hover {
+height: 50%;
+}
+
+h1:hover {
+  color: white;
+}
+
+h2:hover {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+nav > li:hover {
+  width: 100em;
+}
+
+
+.background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  filter: blur(5px);
 }
