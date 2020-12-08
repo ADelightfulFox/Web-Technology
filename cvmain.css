@@ -1,0 +1,23 @@
+.background {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+    filter: blur(5px);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20% 80% ;
+  grid-area:"h1 h1"
+  "cvcontent cvcontent";
+
+}
+
+p {
+  grid-area: cvcontent;
+  
+}
