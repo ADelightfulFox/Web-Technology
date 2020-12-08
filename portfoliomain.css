@@ -1,9 +1,92 @@
+h1 {
+  color: rgb(255, 139, 62);
+  font-size: 14mm;
+ font-family: 'Pacifico', cursive;
+ grid-area: header;
+ transition: 2s;
+ display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 0em;
+  
+}
+
+h1:hover {
+  color: white;
+  transition: 2s;
+}
+
+p {
+  color: rgb(255, 139, 62);
+  font-size: 2vw;
+  font-family: 'Pacifico', cursive;
+  margin: 1em;
+  background-color:rgba(226, 141, 159, 0.582);
+}
+
+body {
+  
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows:10% 45% 45%;
+  grid-template-areas:"header header header"
+  "csy1014 csy1017 csy1018"
+  "csy1019 csy1020 csy1026";
+  height: 90vh;
+
+}
+
 .background {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    z-index: -3;
-    filter: blur(5px);
-  }
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  filter: blur(5px);
+}
+
+p:hover {
+  color: white;
+}
+
+csy1014 {
+  grid-area: csy1014;
+}
+
+csy1017 {
+  grid-area: csy1017;
+}
+csy1018 {
+  grid-area: csy1018;
+}
+csy1019 {
+  grid-area: csy1019;
+}
+csy1020 {
+  grid-area: csy1020;
+}
+csy1026 {
+  grid-area: csy1026;
+}
+
+.shownav {
+  height: 1em;
+  width: 1.5em;
+  display: block; 
+  border-top: 10em white;
+  border-bottom: 15em white;
+  border-radius: 100em;
+  float: right;
+}
+
+.shownav:before {
+  content: '';
+  position: absolute;
+  width: 2.5%;
+  top: 1em;
+  left: 1325px;
+  border-top: 2em solid black;
+
+}
