@@ -5,6 +5,9 @@ h1 {
    grid-area: header;
    margin-left: 15%;
    transition: 2s;
+   display: grid;
+  margin-left: auto;
+  margin-right: auto;
    
    }
 
@@ -13,9 +16,11 @@ h2 {
     font-size: 6vw;
    font-family: 'Pacifico', cursive;
    grid-area: header2;
-   margin-left: 15%;
-   width: 60%;
    transition: 2s;
+   margin-left: 15%;
+   display: grid;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
@@ -87,4 +92,3 @@ nav > li:hover {
   z-index: -3;
   filter: blur(5px);
 }
-
