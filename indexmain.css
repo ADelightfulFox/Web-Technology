@@ -34,7 +34,7 @@ nav {
 nav li {
   display: inline;
   padding: 2em;
-  background-color: rgba(226, 141, 159, 0.582);
+  background-color: rgba(0, 0, 0, 0.582);
   border-radius: 15%;
   
 }
