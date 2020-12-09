@@ -6,17 +6,18 @@ p {
   font-family: 'Pacifico', cursive;
   margin: 0.3em;
   background-color:rgba(0, 0, 0, 0.582);
+  margin-left: 1em;
 }
 
 nav {
   color: rgb(255, 139, 62);
-  font-size: 2vw;
+  font-size: 1.3vw;
   font-family: 'Pacifico', cursive;
   grid-area: nav;
-  padding-left: 10%;
-  
-  
+  margin-left: 20%;
+  margin-right: 20%;
 }
+  
 
 .portfolio {
   background-color:rgba(214, 101, 124, 0.568);
@@ -34,7 +35,7 @@ body {
   
   display: grid;
   grid-template-columns:33% 33% 33%;
-  grid-template-rows:22% 37% 37%;
+  grid-template-rows:15% 42% 42%;
   grid-template-areas:"nav nav nav"
   "csy1014 csy1017 csy1018"
   "csy1019 csy1020 csy1026";
@@ -51,7 +52,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: -3;
-  filter: blur(5px);
+  filter: blur(15px);
 }
 li a:hover {
   color: white;
