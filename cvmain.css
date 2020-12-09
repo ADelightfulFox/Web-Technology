@@ -21,6 +21,24 @@ h2 {
   
 }
 
+nav li {
+  display: inline;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15%;
+  
+}
+
+nav {
+  color: rgb(255, 139, 62);
+  font-size: 2vw;
+  font-family: 'Pacifico', cursive;
+  grid-area: nav;
+  padding-left: 10%;
+  
+  
+}
+
 .summary {
   grid-area: summary;
   color: rgb(255, 139, 62);
@@ -60,9 +78,13 @@ body {
   display: grid;
   grid-template-columns:50% 50% ;
   grid-template-rows: auto;
-  grid-template-areas: "header header"
+  grid-template-areas: "nav nav"
   "header2 header2"
   "summary education";
+}
+
+.cv {
+  color: palevioletred;
 }
 
 h1:hover{
