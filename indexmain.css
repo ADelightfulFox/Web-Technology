@@ -15,21 +15,18 @@ color: rgb(255, 139, 62);
  font-family: 'Pacifico', cursive;
  grid-area: header2;
  transition: 2s;
- margin-left: 15%;
- margin-left: auto;
- margin-right: auto;
+text-align: center;
 
 }
 
 
 nav {
-color: rgb(255, 139, 62);
-font-size: 2vw;
-font-family: 'Pacifico', cursive;
-grid-area: nav;
-padding-left: 10%;
-
-
+  color: rgb(255, 139, 62);
+  font-size: 1.3vw;
+  font-family: 'Pacifico', cursive;
+  grid-area: nav;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .home {
@@ -97,5 +94,5 @@ width: 100%;
 right: 0;
 bottom: 0;
 z-index: -3;
-filter: blur(5px);
+filter: blur(15px);
 }
