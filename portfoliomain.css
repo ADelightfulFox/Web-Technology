@@ -1,22 +1,4 @@
-h1 {
-  color: rgb(255, 139, 62);
-  font-size: 14mm;
- font-family: 'Pacifico', cursive;
- grid-area: header;
- transition: 2s;
- display: grid;
-  margin-left: auto;
-  margin-right: auto;
-  width: 17%;
-  margin-top: 0em;
-  padding: 0em;
-  
-}
 
-h1:hover {
-  color: white;
-  transition: 2s;
-}
 
 p {
   color: rgb(255, 139, 62);
@@ -26,15 +8,39 @@ p {
   background-color:rgba(0, 0, 0, 0.582);
 }
 
+nav {
+  color: rgb(255, 139, 62);
+  font-size: 2vw;
+  font-family: 'Pacifico', cursive;
+  grid-area: nav;
+  padding-left: 10%;
+  
+  
+}
+
+.portfolio {
+  background-color: rgba(214, 101, 124, 0.568);
+}
+
+nav li {
+  display: inline;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15%;
+  
+}
+
 body {
   
   display: grid;
   grid-template-columns:33% 33% 33%;
-  grid-template-rows:10% 45% 45%;
-  grid-template-areas:"header header header"
+  grid-template-rows:22% 37% 37%;
+  grid-template-areas:"nav nav nav"
   "csy1014 csy1017 csy1018"
   "csy1019 csy1020 csy1026";
   height: 100vh;
+  width: 100vw;
+  margin: 0em;
 
 }
 
@@ -46,6 +52,9 @@ body {
   bottom: 0;
   z-index: -3;
   filter: blur(5px);
+}
+li a:hover {
+  color: white;
 }
 
 p:hover {
