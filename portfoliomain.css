@@ -14,8 +14,7 @@ nav {
   font-size: 1.3vw;
   font-family: 'Pacifico', cursive;
   grid-area: nav;
-  margin-left: 20%;
-  margin-right: 20%;
+text-align: center;
 }
   
 
@@ -28,6 +27,7 @@ nav li {
   padding: 2em;
   background-color: rgba(0, 0, 0, 0.582);
   border-radius: 15%;
+  text-align: center;
   
 }
 
