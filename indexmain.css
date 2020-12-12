@@ -1,6 +1,6 @@
 h1 {
   color: rgb(255, 139, 62);
-  font-size: 6vw;
+  font-size: 6em;
  font-family: 'Pacifico', cursive;
  grid-area: header;
  transition: 2s;
@@ -11,7 +11,7 @@ margin-right: auto;
 
 h2 {
 color: rgb(255, 139, 62);
-  font-size: 6vw;
+  font-size: 6em;
  font-family: 'Pacifico', cursive;
  grid-area: header2;
  transition: 2s;
@@ -22,11 +22,10 @@ text-align: center;
 
 nav {
   color: rgb(255, 139, 62);
-  font-size: 1.3vw;
+  font-size: 1.3em;
   font-family: 'Pacifico', cursive;
   grid-area: nav;
-  margin-left: 20%;
-  margin-right: 20%;
+  text-align: center;
 }
 
 .home {
@@ -38,15 +37,10 @@ display: inline;
 padding: 2em;
 background-color: rgba(0, 0, 0, 0.582);
 border-radius: 15%;
+text-align: center;
 
 }
 
-p {
-color: rgb(255, 139, 62);
-font-size: 2vw;
-font-family: 'Pacifico', cursive;
-
-}
 
 body {
 
@@ -62,9 +56,6 @@ margin: 0em;
 
 }
 
-body:hover {
-height: 50%;
-}
 
 h1:hover {
 color: white;
