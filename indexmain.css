@@ -22,7 +22,7 @@ text-align: center;
 
 nav {
   color: rgb(255, 139, 62);
-  font-size: 1.3em;
+  font-size: 1.3vw;
   font-family: 'Pacifico', cursive;
   grid-area: nav;
   text-align: center;
@@ -34,7 +34,7 @@ background-color: rgba(214, 101, 124, 0.568);
 
 nav li {
 display: inline;
-padding: 2em;
+padding: 2vw;
 background-color: rgba(0, 0, 0, 0.582);
 border-radius: 15%;
 text-align: center;
