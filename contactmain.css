@@ -1,0 +1,50 @@
+nav {
+    color: rgb(255, 139, 62);
+    font-size: 1.3vw;
+    font-family: 'Pacifico', cursive;
+    grid-area: nav;
+    text-align: center;
+  }
+  
+  .contact {
+  background-color: rgba(214, 101, 124, 0.568);
+  }
+  
+  nav li {
+  display: inline;
+  padding: 2vw;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15%;
+  text-align: center;
+  }
+
+ body{
+width: 100%;
+margin: 0%;
+height: 100vh;
+}
+  
+  
+  
+  li a:hover {
+  color: white;
+  }
+  
+  li:hover {
+  background-color: rgba(214, 101, 124, 0.568);
+  }
+  
+  nav a{
+  color: rgb(255, 139, 62);
+  }
+  
+  
+  .background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  filter: blur(15px);
+  }
