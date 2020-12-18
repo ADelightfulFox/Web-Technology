@@ -5,6 +5,53 @@ nav {
     grid-area: nav;
     text-align: center;
   }
+
+ form{
+   grid-area: form;
+   align-content: center;
+   display: grid;
+   width: 400px;
+   grid-template-columns: 50% 50%;
+   grid-template-areas:"firstname"
+   "lastname"
+   "email"
+   "txt"
+   "submit" ;
+   align-items: center;
+   grid-gap: 0.5em;
+   color: rgb(255, 139, 62);
+    font-size: 1.3em;
+    font-family: 'Pacifico', cursive;
+    margin-left: 10%;
+  
+}
+
+.fn{
+  grid-area: firstname;
+}
+
+.ln{
+  grid-area: lastname;
+}
+
+.ed{
+  grid-area: email;
+}
+
+.txt{
+  grid-area: txt;
+  grid-column: 2;
+}
+
+.submit{
+  grid-area: submit;
+  grid-column: 2;
+}
+
+ .picture{
+   grid-area: photo;
+   margin-left: 20%;
+ }
   
   .contact {
   background-color: rgba(214, 101, 124, 0.568);
@@ -22,8 +69,44 @@ nav {
 width: 100%;
 margin: 0%;
 height: 100vh;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 15% 85%;
+grid-template-areas: "nav"
+"section";
 }
+
+h1{
+  color: rgb(255, 139, 62);
+  font-size: 1.3em;
+  font-family: 'Pacifico', cursive;
+  grid-area: header;
+  text-align: center;
+  height: 1em;
+}
+
+p{
+  color: rgb(255, 139, 62);
+  font-size: 1.3em;
+  font-family: 'Pacifico', cursive;
+  grid-area: details;
+  text-align: center;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 10% 10% 80% ;
+  grid-template-areas: "photo header"
+  "photo details"
+  "photo form" ;
+  background-color: rgba(0, 0, 0, 0.582);
+  width: 80%;
+  height: 80.5vh;
+  margin-left: 10%;
+  margin-bottom: 19.5%;
   
+}
   
   
   li a:hover {
@@ -36,6 +119,10 @@ height: 100vh;
   
   nav a{
   color: rgb(255, 139, 62);
+  }
+  
+  h1:hover{
+    color: white;
   }
   
   
