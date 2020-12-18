@@ -26,6 +26,11 @@ nav {
   
 }
 
+#contact::after{
+  content: '\A'; 
+  white-space: pre;
+}
+
 .fn{
   grid-area: firstname;
 }
