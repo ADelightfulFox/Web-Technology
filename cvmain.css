@@ -32,7 +32,13 @@ li a:hover {
   color: white;
 }
 
-li:hover {
+li{
+  color: rgb(255, 139, 62);
+  font-size: 1em;
+  font-family: 'Pacifico', cursive;
+}
+
+nav li:hover {
   background-color: rgba(214, 101, 124, 0.568);
 }
 
@@ -53,6 +59,14 @@ h1 {
 }
 
 .paragraph {
+  color: rgb(255, 139, 62);
+  font-size: 1em;
+  font-family: 'Pacifico', cursive;
+  width: 90%;
+  margin-left: 2em;
+}
+
+p{
   color: rgb(255, 139, 62);
   font-size: 1em;
   font-family: 'Pacifico', cursive;
@@ -92,6 +106,35 @@ h4 {
   grid-area: experience;
 }
 
+#address::after{
+  content: "\a";
+  white-space: pre;
+}
+
+#email::after{
+  content: "\a";
+  white-space: pre;
+}
+
+.title::after{
+  content: "\a";
+  white-space: pre;
+}
+
+#college::after{
+  content: "\a";
+  white-space: pre;
+}
+
+#hospital::after{
+  content: "\a";
+  white-space: pre;
+}
+
+#shop::after{
+  content: "\a";
+  white-space: pre;
+}
 
 
 .contact {
@@ -99,6 +142,7 @@ h4 {
   font-size: 1em;
   font-family: 'Pacifico', cursive;
   text-align: center;
+  margin-left: 5%;
 }
 
 .statement {
