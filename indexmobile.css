@@ -100,4 +100,12 @@ li .close{
 color: white;
 }
 
+li:last-of-type{
+    display: block;
 
+}
+
+li:last-of-type a{
+    color: white;
+    text-decoration: underline;
+  }

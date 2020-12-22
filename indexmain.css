@@ -79,3 +79,9 @@ nav a {
   z-index: -3;
   filter: blur(15px);
 }
+
+li:last-of-type{
+  display: none;
+  
+}
+
