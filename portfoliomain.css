@@ -1,0 +1,92 @@
+
+
+p {
+  color: rgb(255, 139, 62);
+  font-size: 1.5em;
+  font-family: 'Pacifico', cursive;
+  margin: 0.3em;
+  background-color:rgba(0, 0, 0, 0.582);
+  margin-left: 1em;
+}
+
+nav {
+  color: rgb(255, 139, 62);
+  font-size: 1.3vw;
+  font-family: 'Pacifico', cursive;
+  grid-area: nav;
+ text-align: center;
+}
+  
+
+.portfolio {
+  background-color:rgba(214, 101, 124, 0.568);
+}
+
+nav li {
+  display: inline;
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15%;
+  text-align: center;
+  
+}
+
+body {
+  
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows:15% 42% 42%;
+  grid-template-areas:"nav nav nav"
+  "csy1014 csy1017 csy1018"
+  "csy1019 csy1020 csy1026";
+  height: 100vh;
+  width: 100vw;
+  margin: 0em;
+
+}
+
+.background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  filter: blur(15px);
+}
+li a:hover {
+  color: white;
+}
+
+li:hover {
+  background-color:rgba(214, 101, 124, 0.568);
+}
+
+p:hover {
+  color: white;
+}
+
+nav a{
+  color: rgb(255, 139, 62);
+}
+
+
+csy1014 {
+  grid-area: csy1014;
+}
+
+csy1017 {
+  grid-area: csy1017;
+}
+csy1018 {
+  grid-area: csy1018;
+}
+csy1019 {
+  grid-area: csy1019;
+}
+csy1020 {
+  grid-area: csy1020;
+}
+csy1026 {
+  grid-area: csy1026;
+}
