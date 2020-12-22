@@ -1,0 +1,65 @@
+ nav {
+    color: rgb(255, 139, 62);
+    font-size: 1.3vw;
+    font-family: 'Pacifico', cursive;
+    grid-area: nav;
+    text-align: center;
+  }
+  
+  .sitereport {
+  background-color: rgba(214, 101, 124, 0.568);
+  }
+  
+  nav li {
+  display: inline;
+  padding: 2vw;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 15%;
+  text-align: center;
+  }
+   
+  li a:hover {
+  color: white;
+  }
+
+  body{
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 30% 70%;
+      grid-template-areas:"nav"
+      "section";
+      margin: 0%;
+  }
+
+  section{
+      background-color: rgba(0, 0, 0, 0.582);
+      grid-area: section;
+      margin-top: 3%;
+  }
+  
+  li:hover {
+  background-color: rgba(214, 101, 124, 0.568);
+  }
+  
+  nav a{
+  color: rgb(255, 139, 62);
+  }
+  
+  h1{
+    color: rgb(255, 139, 62);
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .background {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  z-index: -3;
+  filter: blur(15px);
+  }
+  
