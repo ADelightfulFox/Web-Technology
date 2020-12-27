@@ -18,7 +18,7 @@ nav {
 
 nav li {
   display: inline;
-  padding: 2em;
+  padding: 2vw;
   background-color: rgba(0, 0, 0, 0.582);
  text-align: center;  
  border-radius: 15%;
@@ -56,6 +56,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   text-align: center;
   text-decoration: underline;
+  margin-left: -5%;
 }
 
 .paragraph {
@@ -103,7 +104,7 @@ h4 {
 }
 
 .experience {
-  grid-area: experience;
+grid-area: experience;
 }
 
 #address::after{
@@ -137,7 +138,7 @@ h4 {
 }
 
 
-.contact {
+.information {
   color: rgb(255, 139, 62);
   font-size: 1em;
   font-family: 'Pacifico', cursive;
@@ -146,39 +147,45 @@ h4 {
 }
 
 .statement {
-  grid-area: statement;
+grid-area: statement;
 }
 
 .grades {
-  grid-area: grade;
-  color: rgb(255, 139, 62);
-  font-size: 1em;
-  font-family: 'Pacifico', cursive;
+grid-area: grade;
+color: rgb(255, 139, 62);
+font-size: 1em;
+font-family: 'Pacifico', cursive;
 }
 
-
-
 body {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 15% 85%;
-  grid-template-areas: "nav"
-  "details";
-  width: 100%;
-  height: 100vh;
-  margin: 0%;
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 15% 85%;
+grid-template-areas: "nav"
+"details";
+width: 100%;
+height: 100vh;
+margin: 0em;
 }
 
 .details {
-  display: grid;
-  grid-template-columns:50% 50%;
-  grid-template-rows: 10% 35% 35% ;
-  grid-template-areas:"information information"
-  "statement experience"
-  "grade grade" ;
-  background-color: rgba(0, 0, 0, 0.582);
-  height: 100vh;
-  width: 100%;
+display: grid;
+grid-template-columns:50% 50%;
+grid-template-rows: 15% 35% 35% ;
+grid-template-areas:"information information"
+"statement experience"
+"grade grade";
+background-color: rgba(0, 0, 0, 0.582);
+height: 100vh;
+width: 100%;
+}
+
+li:last-of-type{
+display: none;
+}
+
+.shownav{
+display: none;
 }
 
 
