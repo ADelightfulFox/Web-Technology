@@ -1,142 +1,150 @@
 nav {
-    color: rgb(255, 139, 62);
-    font-size: 1.3vw;
-    font-family: 'Pacifico', cursive;
-    grid-area: nav;
-    text-align: center;
-  }
+  color: rgb(255, 139, 62);
+  font-size: 1.3vw;
+  font-family: 'Pacifico', cursive;
+  grid-area: nav;
+  text-align: center;
+}
 
- form{
-   grid-area: form;
-   align-content: center;
-   display: grid;
-   width: 400px;
-   grid-template-columns: 50% 50%;
-   grid-template-areas:"firstname"
-   "lastname"
-   "email"
-   "txt"
-   "submit" ;
-   align-items: center;
-   grid-gap: 0.5em;
-   color: rgb(255, 139, 62);
-    font-size: 1.3em;
-    font-family: 'Pacifico', cursive;
-    margin-left: 10%;
-  
+form{
+  grid-area: form;
+  align-content: center;
+  display: grid;
+  width: 400px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:"firstname"
+  "lastname"
+  "email"
+  "txt"
+  "submit" ;
+  align-items: center;
+  grid-gap: 0.5em;
+  color: rgb(255, 139, 62);
+  font-size: 1.3em;
+  font-family: 'Pacifico', cursive;
+  margin-left: 10%;
+
 }
 
 #contact::after{
-  content: '\A'; 
-  white-space: pre;
+content: '\A'; 
+white-space: pre;
 }
 
 .fn{
-  grid-area: firstname;
+grid-area: firstname;
 }
 
 .ln{
-  grid-area: lastname;
+grid-area: lastname;
 }
 
 .ed{
-  grid-area: email;
+grid-area: email;
 }
 
 .txt{
-  grid-area: txt;
-  grid-column: 2;
+grid-area: txt;
+grid-column: 2;
 }
 
 .submit{
-  grid-area: submit;
-  grid-column: 2;
+grid-area: submit;
+grid-column: 2;
 }
 
- .picture{
-   grid-area: photo;
-   margin-left: 20%;
- }
-  
-  .contact {
-  background-color: rgba(214, 101, 124, 0.568);
-  }
-  
-  nav li {
-  display: inline;
-  padding: 2vw;
-  background-color: rgba(0, 0, 0, 0.582);
-  border-radius: 15%;
-  text-align: center;
-  }
+.picture{
+  grid-area: photo;
+  margin-left: 20%;
+}
 
- body{
+.contact {
+background-color: rgba(214, 101, 124, 0.568);
+}
+
+nav li {
+display: inline;
+padding: 2vw;
+background-color: rgba(0, 0, 0, 0.582);
+border-radius: 15%;
+text-align: center;
+}
+
+body{
 width: 100%;
 margin: 0%;
 height: 100vh;
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 15% 85%;
+grid-template-rows: 20% 85%;
 grid-template-areas: "nav"
 "section";
 }
 
 h1{
-  color: rgb(255, 139, 62);
-  font-size: 1.3em;
-  font-family: 'Pacifico', cursive;
-  grid-area: header;
-  text-align: center;
-  height: 1em;
+color: rgb(255, 139, 62);
+font-size: 1.3em;
+font-family: 'Pacifico', cursive;
+grid-area: header;
+text-align: center;
+height: 1em;
 }
 
 p{
-  color: rgb(255, 139, 62);
-  font-size: 1.3em;
-  font-family: 'Pacifico', cursive;
-  grid-area: details;
-  text-align: center;
+color: rgb(255, 139, 62);
+font-size: 1.3em;
+font-family: 'Pacifico', cursive;
+grid-area: details;
+text-align: center;
 }
 
 section{
-  display: grid;
-  grid-template-columns: 50% 50% ;
-  grid-template-rows: 10% 10% 80% ;
-  grid-template-areas: "photo header"
-  "photo details"
-  "photo form" ;
-  background-color: rgba(0, 0, 0, 0.582);
-  width: 80%;
-  height: 80.5vh;
-  margin-left: 10%;
-  margin-bottom: 19.5%;
-  
+display: grid;
+grid-template-columns: 50% 50% ;
+grid-template-rows: 10% 10% 80% ;
+grid-template-areas: "photo header"
+"photo details"
+"photo form" ;
+background-color: rgba(0, 0, 0, 0.582);
+width: 80%;
+height: 80.5vh;
+margin-left: 10%;
+margin-bottom: 19.5%;
 }
-  
-  
-  li a:hover {
+
+
+li a:hover {
+color: white;
+}
+
+li:hover {
+background-color: rgba(214, 101, 124, 0.568);
+}
+
+nav a{
+color: rgb(255, 139, 62);
+}
+
+h1:hover{
   color: white;
-  }
-  
-  li:hover {
-  background-color: rgba(214, 101, 124, 0.568);
-  }
-  
-  nav a{
-  color: rgb(255, 139, 62);
-  }
-  
-  h1:hover{
-    color: white;
-  }
-  
-  
-  .background {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  z-index: -3;
-  filter: blur(15px);
-  }
+}
+
+
+.background {
+position: fixed;
+height: 100%;
+width: 100%;
+right: 0;
+bottom: 0;
+z-index: -3;
+filter: blur(15px);
+}
+
+li:last-of-type{
+display: none;
+
+}
+
+.shownav{
+display: none;
+}
