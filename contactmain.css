@@ -1,32 +1,32 @@
 nav {
-  color: rgb(255, 139, 62);
-  font-size: 1.3vw;
-  font-family: 'Pacifico', cursive;
-  grid-area: nav;
-  text-align: center;
+color: rgb(255, 139, 62);
+font-size: 1.3vw;
+font-family: 'Pacifico', cursive;
+grid-area: nav;
+text-align: center;
 }
 
 form{
-  grid-area: form;
-  align-content: center;
-  display: grid;
-  width: 400px;
-  grid-template-columns: 50% 50%;
-  grid-template-areas:"firstname"
-  "lastname"
-  "email"
-  "txt"
-  "submit" ;
-  align-items: center;
-  grid-gap: 0.5em;
-  color: rgb(255, 139, 62);
-  font-size: 1.3em;
-  font-family: 'Pacifico', cursive;
-  margin-left: 10%;
+grid-area: form;
+align-content: center;
+display: grid;
+width: 400px;
+grid-template-columns: 50% 50%;
+grid-template-areas:"firstname"
+"lastname"
+"email"
+"txt"
+"submit" ;
+align-items: center;
+grid-gap: 0.5em;
+color: rgb(255, 139, 62);
+font-size: 1.3em;
+font-family: 'Pacifico', cursive;
+margin-left: 10%;
 
 }
 
-#contact::after{
+#Contact::after{
 content: '\A'; 
 white-space: pre;
 }
