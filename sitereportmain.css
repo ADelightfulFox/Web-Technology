@@ -1,65 +1,182 @@
- nav {
-    color: rgb(255, 139, 62);
-    font-size: 1.3vw;
-    font-family: 'Pacifico', cursive;
-    grid-area: nav;
-    text-align: center;
-  }
-  
-  .sitereport {
-  background-color: rgba(214, 101, 124, 0.568);
-  }
-  
-  nav li {
-  display: inline;
-  padding: 2vw;
-  background-color: rgba(0, 0, 0, 0.582);
-  border-radius: 15%;
-  text-align: center;
-  }
-   
-  li a:hover {
-  color: white;
-  }
+nav {
+color: rgb(255, 139, 62);
+font-size: 1.3vw;
+font-family: 'Pacifico', cursive;
+grid-area: nav;
+text-align: center;
+}
 
-  body{
-      display: grid;
-      grid-template-columns: 100%;
-      grid-template-rows: 30% 70%;
-      grid-template-areas:"nav"
-      "section";
-      margin: 0%;
-  }
+.sitereport {
+background-color: rgba(214, 101, 124, 0.568);
+}
 
-  section{
-      background-color: rgba(0, 0, 0, 0.582);
-      grid-area: section;
-      margin-top: 3%;
-  }
-  
-  li:hover {
-  background-color: rgba(214, 101, 124, 0.568);
-  }
-  
-  nav a{
+nav li {
+display: inline;
+padding: 2vw;
+background-color: rgba(0, 0, 0, 0.582);
+border-radius: 15%;
+text-align: center;
+}
+
+li a:hover {
+color: white;
+}
+
+section{
+background-color: rgba(0, 0, 0, 0.582);
+grid-area: section;
+margin-top: 3%;
+}
+
+li:hover {
+background-color: rgba(214, 101, 124, 0.568);
+}
+
+nav a{
+color: rgb(255, 139, 62);
+}
+
+h1{
+color: rgb(255, 139, 62);
+font-size: 3em;
+font-family: 'Pacifico', cursive;
+text-align: center;
+text-decoration: underline;
+}
+
+h2{
+color: rgb(255, 139, 62);
+font-size: 3em;
+font-family: 'Pacifico', cursive;
+text-align: center;
+text-decoration: underline;
+}
+
+h3{
+color: rgb(255, 139, 62);
+font-size: 3em;
+font-family: 'Pacifico', cursive;
+text-align: center;
+text-decoration: underline;
+}
+
+h4{
   color: rgb(255, 139, 62);
+  font-size: 3em;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-decoration: underline;
+  grid-area: h4;
   }
+
+p{
+color: rgb(255, 139, 62);
+font-size: 1em;
+font-family: 'Pacifico', cursive;
+margin-left: 5%;
+margin-right: 5%;
+}
+
+.background {
+position: fixed;
+height: 100%;
+width: 100%;
+right: 0;
+bottom: 0;
+z-index: -3;
+filter: blur(15px);
+}
+
+.validation{
+grid-area: validation;
+display: grid;
+grid-template-columns: 30% 30% 30%;
+grid-template-rows: 10% 20% 20% 20% 20%;
+grid-template-areas: 
+"h4 h4 h4"
+"index1 index2 index3"
+"port1 port2 port3"
+"cv1 cv2 cv3"
+"contact1 contact2 contact3";
+padding-left: 10%;
+
+}
+
+.index1{
+grid-area: index1;
+}
+
+.index2{
+grid-area: index2;
+}
+
+.index3{
+grid-area: index3;
+}
+
+.port1{
+grid-area: port1;
+}
+
+.port2{
+grid-area: port2;
+}
+
+.port3{
+grid-area: port3;
+}
+
+.cv1{
+grid-area: cv1;
+}
+
+.cv2{
+grid-area: cv2;
+}
+
+.cv3{
+grid-area: cv3;
+}
+
+.contact1{
+grid-area: contact1;
+}
+
+.contact2{
+grid-area: contact2;
+}
+
+.contact3{
+grid-area: contact3;
+}
+
+
+body {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: 15% 40% 40% 40% 250%;
+grid-template-areas:
+"nav"
+"development"
+"design"
+"fixes"
+"validation";
+height: 100vh;
+width: 100%;
+margin: 0em;
+}
   
-  h1{
-    color: rgb(255, 139, 62);
-    font-size: 3em;
-    font-family: 'Pacifico', cursive;
-    text-align: center;
-    text-decoration: underline;
-  }
-  
-  .background {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  right: 0;
-  bottom: 0;
-  z-index: -3;
-  filter: blur(15px);
-  }
-  
+.development{
+grid-area: development;
+}
+
+.design{
+grid-area: design;
+}
+
+.fixes{
+grid-area: fixes;
+}
+
+
+
