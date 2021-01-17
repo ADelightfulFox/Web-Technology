@@ -28,7 +28,7 @@ grid-area: section;
 margin-top: 3%;
 }
 
-#reference::after{
+span::after{
   content: "\a";
   white-space: pre;
 }
@@ -94,70 +94,113 @@ filter: blur(15px);
 grid-area: validation;
 display: grid;
 grid-template-columns: 30% 30% 30%;
-grid-template-rows: 10% 20% 20% 20% 20%;
+grid-template-rows: 10% 20% 20% 20% 20% 20%;
 grid-template-areas: 
 "h4 h4 h4"
-"index1 index2 index3"
+"index index1 index2"
 "port1 port2 port3"
 "cv1 cv2 cv3"
-"contact1 contact2 contact3";
+"contact1 contact2 contact3"
+"sitereport1 sitereport2 sitereport3";
 padding-left: 10%;
 
 }
 
+.index{
+  grid-area: index;
+  width:450px;
+  height:400px;
+  }
+
 .index1{
 grid-area: index1;
+width:450px;
+height:400px;
 }
 
 .index2{
 grid-area: index2;
-}
-
-.index3{
-grid-area: index3;
+width:450px;
+height:400px;
 }
 
 .port1{
 grid-area: port1;
+width:450px;
+height:400px;
 }
 
 .port2{
 grid-area: port2;
+width:450px;
+height:400px;
 }
 
 .port3{
 grid-area: port3;
+width:450px;
+height:400px;
 }
 
 .cv1{
 grid-area: cv1;
+width:450px;
+height:400px;
 }
 
 .cv2{
 grid-area: cv2;
+width:450px;
+height:400px;
 }
 
 .cv3{
 grid-area: cv3;
+width:450px;
+height:400px;
 }
 
 .contact1{
 grid-area: contact1;
+width:450px;
+height:400px;
 }
 
 .contact2{
 grid-area: contact2;
+width:450px;
+height:400px;
 }
 
 .contact3{
 grid-area: contact3;
+width:450px;
+height:400px;
+}
+
+.sitereport1{
+  grid-area: sitereport1;
+  width:450px;
+  height:400px
+}
+
+.sitereport2{
+  grid-area: sitereport2;
+  width:450px;
+  height:400px
+}
+
+.sitereport3{
+  grid-area: sitereport3;
+  width:450px;
+  height:400px
 }
 
 
 body {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 15% 40% 40% 40% 40% 250%;
+grid-template-rows: 15% 40% 40% 40% 40% 230%;
 grid-template-areas:
 "nav"
 "development"
