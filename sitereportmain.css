@@ -28,6 +28,11 @@ grid-area: section;
 margin-top: 3%;
 }
 
+#reference::after{
+  content: "\a";
+  white-space: pre;
+}
+
 li:hover {
 background-color: rgba(214, 101, 124, 0.568);
 }
@@ -73,8 +78,6 @@ p{
 color: rgb(255, 139, 62);
 font-size: 1em;
 font-family: 'Pacifico', cursive;
-margin-left: 5%;
-margin-right: 5%;
 }
 
 .background {
@@ -154,16 +157,21 @@ grid-area: contact3;
 body {
 display: grid;
 grid-template-columns: 100%;
-grid-template-rows: 15% 40% 40% 40% 250%;
+grid-template-rows: 15% 40% 40% 40% 40% 250%;
 grid-template-areas:
 "nav"
 "development"
 "design"
 "fixes"
+"references"
 "validation";
 height: 100vh;
 width: 100%;
 margin: 0em;
+}
+
+.references{
+  grid-area: references;
 }
   
 .development{
@@ -178,5 +186,8 @@ grid-area: design;
 grid-area: fixes;
 }
 
+li:last-of-type{
+  display: none;
+}
 
 
